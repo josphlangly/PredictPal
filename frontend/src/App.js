@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // Fetch sales data from the backend
-    fetch('http://localhost:3001/api/sales')
+    fetch('https://predictpal.onrender.com')
       .then((response) => response.json())
       .then((data) => {
         setSales(data);
